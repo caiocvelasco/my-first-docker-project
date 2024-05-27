@@ -14,17 +14,17 @@
 - **name_of_your_project_repo (project-root)/**
     - **.devcontainer/**
       - devcontainer.json
-    - **.env**
+    - **your_jup_notebooks/**
+      - jup_notebook_example.ipynb
+    - **your_python_scripts/**
+        - ingest_fake_data.py
+      - **.env**
     - **.python-version**
     - **Dockerfile**
     - **docker-compose.yml**
     - **init.sql**
     - **requirements.txt**
     - **README.md**
-    - **your_jup_notebooks/**
-      - example_notebook.ipynb
-    - **your_python_scripts/**
-      - script.py
 
 ## Setup Instructions
 
@@ -50,8 +50,8 @@ Create a `.env` file in the project root with the following content:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/caiocvelasco/end-to-end-data-science-project.git
-   cd end-to-end-data-science-project
+   git clone https://github.com/caiocvelasco/my-first-docker-project.git
+   cd my-first-docker-project
 
 2. **Build and start the containers:**
 
@@ -62,5 +62,3 @@ Create a `.env` file in the project root with the following content:
 - **Postgres**: A PostgreSQL database instance.
 - **Python**: A container running Python 3.9.13 with necessary dependencies.
 - **Jupyter Notebook**: A Jupyter Notebook instance for interactive data analysis.
-
-(WORK IN PROGRESS)
