@@ -9,5 +9,6 @@
     ],
     "settings": {
         "terminal.integrated.shell.linux": null
-    }
+    },
+    "postCreateCommand": "docker image prune -f"
 }
