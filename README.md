@@ -8,8 +8,6 @@
   - [Environment Variables](#environment-variables)
   - [Build and Run](#build-and-run)
 - [Services](#services)
-- [Project Definition](#project-definition)
-  - [Data Source](#data-source)
 
 ## Project Structure
 
@@ -64,8 +62,3 @@ Create a `.env` file in the project root with the following content:
 - **Postgres**: A PostgreSQL database instance.
 - **Python**: A container running Python 3.9.13 with necessary dependencies.
 - **Jupyter Notebook**: A Jupyter Notebook instance for interactive data analysis.
-
-## Project Definition
-
-### Data Source
-  Data comes from an API called [CoinCap API](https://docs.coincap.io/#89deffa0-ab03-4e0a-8d92-637a857d2c91). CoinCap is a useful tool for real-time pricing and market activity for over 1,000 cryptocurrencies.
